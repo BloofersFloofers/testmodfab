@@ -20,6 +20,8 @@ public class ModItems {
                     .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 80, 0), 0.2f)
                     .build())
     );
+    public static final Item STONY_DIRT_CHUNK = new Item(new Item.Settings().group(ItemGroup.MATERIALS)
+    );
 
     //block items
 
@@ -28,6 +30,7 @@ public class ModItems {
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(testmod.MOD_ID, "normal_pills"), NORMAL_PILLS);
         Registry.register(Registry.ITEM, new Identifier(testmod.MOD_ID, "stony_dirt"), STONY_DIRT);
+        Registry.register(Registry.ITEM, new Identifier(testmod.MOD_ID, "stony_dirt_chunk"), STONY_DIRT_CHUNK);
     }
 
 }
