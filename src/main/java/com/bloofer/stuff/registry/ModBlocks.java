@@ -14,7 +14,8 @@ public class ModBlocks {
             .of(Material.ORGANIC_PRODUCT)
             .breakByHand(true)
             .strength(0.6f, 3f)
-            .sounds(BlockSoundGroup.ROOTED_DIRT));
+            .sounds(BlockSoundGroup.ROOTED_DIRT)
+    );
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(testmod.MOD_ID, "stony_dirt"), STONY_DIRT);

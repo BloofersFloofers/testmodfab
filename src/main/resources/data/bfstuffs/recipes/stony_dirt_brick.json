@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "bfstuffs:stony_dirt_chunk"
+    },
+    "result": "bfstuffs:stony_dirt_brick",
+    "experience": 0.1,
+    "cookingtime": 60
+}
